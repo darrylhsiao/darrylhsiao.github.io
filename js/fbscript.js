@@ -134,7 +134,7 @@ var callback = function (e){
             attributes.align = "middle";
             
             
-var hasMobileVersion=true;
+var hasMobileVersion=false;
 var hasBasicHtmlVersion=true;
 
 var callback = function (e){ 
@@ -212,4 +212,4 @@ function detectAndGoVersion(loadType){
     swfobject.createCSS("#flashContent", "display:block;text-align:left;");
 	}	 
 }
-detectAndGoVersion(2);
+detectAndGoVersion();
