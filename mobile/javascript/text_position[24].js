@@ -1,0 +1,1 @@
+﻿positionForPages[24]={page:24,positions:[{word:"植 - 23",left:0.470332,top:0.965052,width:0.075751,height:0.015543},{word:"2",left:0.008829,top:0.251708,width:0.030238,height:0.042590},{word:"圖植 2-2",left:0.107010,top:0.044172,width:0.077230,height:0.015595},{word:"植生工程常用種子材料照片例",left:0.210930,top:0.044172,width:0.277172,height:0.015595}]};

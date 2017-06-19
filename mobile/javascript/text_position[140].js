@@ -1,0 +1,1 @@
+﻿positionForPages[140]={page:140,positions:[{word:"圖植 7-9",left:0.321571,top:0.738451,width:0.077230,height:0.015595},{word:"大型苗木斷根處理示意圖",left:0.425490,top:0.738451,width:0.234404,height:0.015595},{word:"植 - 139",left:0.470342,top:0.965050,width:0.086786,height:0.015543},{word:"7",left:0.964210,top:0.594361,width:0.030238,height:0.042590}]};

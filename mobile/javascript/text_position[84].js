@@ -1,0 +1,1 @@
+﻿positionForPages[84]={page:84,positions:[{word:"圖植 4-8",left:0.348000,top:0.308590,width:0.077229,height:0.015595},{word:"栽植槽植生照片例",left:0.451919,top:0.308590,width:0.170251,height:0.015595},{word:"植 - 82",left:0.470341,top:0.965050,width:0.075750,height:0.015543},{word:"4",left:0.961276,top:0.384257,width:0.030238,height:0.042590}]};
