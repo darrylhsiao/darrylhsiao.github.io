@@ -27,6 +27,9 @@ textarea{font-family:Calibri;}
 .about_form a{color:#1a7fc7;text-decoration:none;}
 
 .about_form.rightToLeft{text-align:right;}
+.about_form.rightToLeft .form_title{text-align:right;}
+.about_form.rightToLeft .item .title{left:auto;right:0;}
+.about_form.rightToLeft a{float: right;}
 .about_form.rightToLeft .content2 .item .content{margin:0;text-align:right;}
 .about_form.rightToLeft .content1 .item .content{margin:0 70px 0 0;text-align:right;}
 
@@ -212,6 +215,8 @@ transform:rotate(360deg);
 
 
 .tableofcontent_form{text-align:left;vertical-align:middle;line-height:20px;position:absolute;z-index:1000;left:-300px;top:150px;width:250px;height:548px;background:#000000;padding:20px;color:#ffffff;font-size:15px;font-family:Calibri;}
+.tableofcontent_form .input_search{width:225px;height:30px;border:none;padding:0 30px 0 10px;margin-top:10px;margin-left:-10px;}
+.tableofcontent_form .searchButton{position:absolute;top:56px;right:20px;cursor:pointer;z-index:10;}
 
 .tableofcontent_form .stage{overflow:hidden;width:272px;height:515px;position:relative;margin:12px 0 0 -12px;}
 .tableofcontent_form .swiper{width:100%;position:absolute;left:0;top:0;}
@@ -292,6 +297,8 @@ transform:rotate(360deg);
 }
 
 .fbTopBar .button img {
+	width:22px;
+	height:22px;
 	margin-left : 10px;
 	margin-top : 13px;
 }
@@ -376,6 +383,8 @@ transform:rotate(360deg);
 }
 
 .searchBar .button img{
+	width:22px;
+	height:22px;
 	margin-left : 5px;
 	margin-top : 5px;
 }
@@ -419,6 +428,8 @@ transform:rotate(360deg);
 }
 
 .buttonBar .button img {
+	width:22px;
+	height:22px;
 	margin-left : 10px;
 	margin-top : 13px;
 }
@@ -439,6 +450,8 @@ transform:rotate(360deg);
 }
 
 .pageBar .button img {
+	width:22px;
+	height:22px;
 	margin-left : 10px;
 	margin-top : 13px;
 }
@@ -461,6 +474,8 @@ transform:rotate(360deg);
 }
 
 .extendedBar .button img{
+	width:22px;
+	height:22px;
 	margin-left : 5px;
 	margin-top : 13px;
 }
@@ -474,6 +489,8 @@ transform:rotate(360deg);
 }
 
 .extendedBar.rtl .button img{
+	width:22px;
+	height:22px;
 	float : right;
 	margin-right : 5px;
 	margin-top : 13px;
@@ -497,6 +514,8 @@ transform:rotate(360deg);
 }
 
 .floatPageButton img{
+	width:22px;
+	height:22px;
 	margin-left:19px;
 	margin-top:56px;
 }
@@ -506,9 +525,9 @@ transform:rotate(360deg);
 }
 
 
-
 .thumbnail_win10{text-align:left;vertical-align:middle;line-height:20px;position:absolute;z-index:1000;left:0;top:0;padding:10px 0;width:100%;height:254px;background:#000000;color:#ffffff;font-size:12px;font-family:Calibri;}
-.thumbnail_win10 .close{right:20px;top:-24px;position:absolute;cursor:pointer;width:32px;height:24px;background-color:#000000;background-repeat:no-repeat;background-position:center center;}
+.thumbnail_win10 .close{right:20px;top:-24px;position:absolute;cursor:pointer;width:32px;height:24px;background-color:#000000;}
+.thumbnail_win10 .close img{position:absolute;left:10px;top:6px;}
 
 .thumbnail_win10 .stage{overflow:hidden;height:225px;margin:20px;position:relative;}
 .thumbnail_win10 .swiper{position:absolute;top:0;height:190px;}
@@ -579,28 +598,30 @@ transform:rotate(360deg);
 .phoneTopBar{position : absolute;width : 100%;height : 40px;left : 0;top : 0;z-index : 99;-webkit-box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);-moz-box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);-o-box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);}
 .phoneTopBar .button{width : 40px;height : 40px;position : absolute;cursor:pointer;}
 .phoneTopBar .button img{max-height : 40px;position : absolute;top:0;bottom:0;margin:auto;}
-.phoneTopBar .button .icon{position : absolute;left : 8px;top : 8px;}
-.phoneTopBar .button div{width : 25px;height : 25px;}
+.phoneTopBar .button .icon{position : absolute;left : 10px;top : 10px;}
+.phoneTopBar .button div{width : 20px;height : 20px;}
 .phoneTopBar .button span{display:none;}
 
-.phoneBottomBar{position : absolute;width : 100%;height : 40px;bottom : 0;left : 0;z-index : 99;-webkit-box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);-moz-box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);-o-box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);box-shadow : 0 0 5px rgba(40, 0, 0, 0.5);}
+.phoneBottomBar{position : absolute;width : 100%;height : 40px;bottom : 0;left : 0;z-index : 99;}
 .phoneBottomBar .button{width : 40px;height : 40px;position : absolute;cursor:pointer;}
-.phoneBottomBar .button img{height : 25px;width:25px;position : absolute;top:0;bottom:0;margin:auto; margin-left: 7px;}
-.phoneBottomBar .button .icon{position : absolute;left : 8px;top : 8px;}
-.phoneBottomBar .button div{width : 25px;height : 25px;}
+.phoneBottomBar .button img{height : 20px;width:20px;position : absolute;top:0;bottom:0;margin:auto;}
+.phoneBottomBar .button .icon{position : absolute;left:10px;top:10px;width:20px;height:20px;}
 .phoneBottomBar .button span{display:none;}
 
-.phone.extendedBar .arrow{position:absolute;width:0;height:0;border-width:7px;border-style:solid;left:50%;margin-left:-7px;bottom:-14px;}
+.phone.extendedBar .arrow{position:absolute;width:50px;height:20px;left:50%;cursor:pointer;margin-left:-25px;border-radius:5px 5px 0 0;top:-20px;background-color:rgba(0,0,0,0.8);}
+.phone.extendedBar .arrow img{width:10px;margin:5px 20px;}
 
-.extendedBar.phone{overflow : hidden;position : absolute;z-index: 100;border-radius:0;}
-.extendedBar.phone .button{position : absolute;width : 150px;height : 40px;overflow : hidden;border-radius: 0;}
-.extendedBar.phone .button:hover {background: rgba(255,255,255, 0.2);}
-.extendedBar.phone .button img{position : absolute;left : 7px;top : 7px;width:25px;height:25px;margin:0;}
+.extendedBar.phone{border-bottom:1px solid rgba(255,255,255,0.1);overflow : hidden;position : absolute;bottom:-180px;z-index: 98;border-radius:0;background:#000000;width:100%;height:72px;}
+.extendedBar.phone .button{width : 40px;height : 52px;border-radius: 0;float:left;margin:10px 0 0 30px;position:relative;text-align:center;}
+.extendedBar.phone .button .icon{position:relative;display:block;width:32px;height:32px;border-radius:16px;background-color:rgba(255,255,255,0.1);margin:0 0 0 4px;}
+.extendedBar.phone .button img{display:block;width:18px;height:18px;position:absolute;left:7px;top:7px;margin:0;}
+.extendedBar.phone .button span{color : white;line-height:20px;display:block;position:relative;margin:0 0 0 -15px;width:70px;}
 
-.extendedBar.phone .button span{position:absolute;color : white;margin-left:40px;margin-top : 0;line-height:40px;display:block;}
-
-.extendedBar.phone.rtl .button img {float : right;margin-right : 7px;margin-top : 7px;}
-.extendedBar.phone.rtl .button span{position:absolute;color : white;right : 0px;margin-right:42px;margin-top : 12px;}
+.extendedBar.phone .stage{height:100%;}
+.extendedBar.phone .stage .swiper{height:100%;}
+.extendedBar.phone .stage .swiper .item{height:100%;}
+.extendedBar.phone .stage .swiper .dots{height:20px;position:absolute;left:0;bottom:0;}
+.extendedBar.phone .stage .swiper .dots .dot{width:10px;height:10px;border-radius:5px;background:#ffffff;}
 
 .phoneGotoPageContent img{
 	width : 22px;
@@ -660,10 +681,10 @@ transform:rotate(360deg);
 .print_form.phone{background:transparent;width:100%;padding:0;border-radius: 0;}
 .print_form.phone .item{cursor:pointer;line-height:26px;vertical-align: middle;position:relative;padding:10px 20px 10px;margin:0 15px;border-bottom: 1px solid rgba(255,255,255,0.2);}
 .print_form.phone .item img{vertical-align: middle;position:absolute;left:10px;top:14px;width:20px;}
-.print_form.rightToLeft .item img{vertical-align: middle;position:absolute;right:10px;left:auto;top:16px;}
+.print_form.phone.rightToLeft .item img{vertical-align: middle;position:absolute;right:10px;left:auto;top:16px;}
 .print_form.phone .form_title{font-family:"Arial";font-size:15px;line-height:36px; padding: 0 15px;margin:0; margin-bottom: 10px;}
 .print_form.phone.rightToLeft .form_title{text-align: right;}
-.print_form .printRange input{padding:0 5px;width:100px;height:26px;border:none;margin-left:10px;font-size:12px;background-color:#D3D3D3; }
+.print_form.phone .printRange input{padding:0 5px;width:100px;height:26px;border:none;margin-left:10px;font-size:12px;background-color:#D3D3D3; }
 .print_form.phone .item span{margin-left:20px;}
 .print_form.phone .close{top:6px;position:absolute;cursor:pointer;left:auto;right:10px;}
 .print_form.phone.rightToLeft .close{top:6px;position:absolute;cursor:pointer;left:10px;}
