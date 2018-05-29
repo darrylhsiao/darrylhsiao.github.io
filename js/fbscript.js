@@ -218,7 +218,7 @@ function detectAndGoVersion(loadType){
     swfobject.createCSS("#flashContent", "display:block;text-align:left;");
 	}	 
 }
-detectAndGoVersion();
+detectAndGoVersion(2);
 function isBelowIE8(){
 	var $ = window;
 	var sUserAgent = navigator.userAgent.toLowerCase();

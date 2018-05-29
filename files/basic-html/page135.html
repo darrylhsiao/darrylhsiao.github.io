@@ -4,7 +4,7 @@
 				<meta name="robots" content="all"/>
         <meta name="description" content="description">
         <meta name="keywords" content="">
-        <title>Page 135 - 水土保持手冊</title>
+        <title>Page 135 - 水土保持手冊_10612</title>
 <style type="text/css">
 <!--
 body {
@@ -141,7 +141,7 @@ function MM_swapImage() { //v3.0
   </div>
   <div id="content">
      <div id="content-top">
-        <div id="content-top1">Page 135 - 水土保持手冊</div>
+        <div id="content-top1">Page 135 - 水土保持手冊_10612</div>
         <div id="content-top2">P. 135</div>
      </div>
      <div id="content-middle">
@@ -152,65 +152,67 @@ function MM_swapImage() { //v3.0
     </div>
 
     <p class="use-as-video-title"></p>
-    <pre style="white-space:pre-line"><code>表  調 3-2-2 二維輸砂模式功能比較表
-
-                                   模式名稱
-                  比較項目                         FLO2D              CCHE2D                  SRH2D
-
-                   數值理                        有限差分             隱式有效元素法                     顯式法
-                     論                           法
-                           超、亞、混合流               〇                    〇                      〇
-
-                           定量流、變量流               〇                    〇                      〇
-                   水理模        乾濕點處理              〇                    〇                      〇
-                     組                                    1.Parabolic Eddy viscosity Parabolic model
-                               紊流模式           k-εmodel    model                       2.k-εmodel
-                                                          2. mixing length model
-                                                          3. k-εmodel
-
-                           懸浮載與推移載               〇                    〇                      〇
-                                 分離
-                               床質級配              〇                    〇                      〇
-
-                               護甲作用              〇                    〇                      〇
-                   輸砂模        非均勻沉滓              〇                    〇                      〇
-                     組        非平衡輸砂              〇                    〇                      〇
-                              凝聚性沉滓              ╳                    〇                      〇
-                               軟岩沖刷              ╳                    〇                      〇
-                                                                                      1.泥砂磨蝕
-                             軟岩沖刷機制              ～                泥砂磨蝕
-                                                                                      2.水力沖蝕機制
-                               格網處理              ～        CCHE_MESH、格網延展                SMS_MESH
-
-                   幾何處         主支合流              〇                    〇                      〇
-                     理         格網挖空              〇                    〇                      〇
-
-                               格網變形              〇                    〇                      〇
+    <pre style="white-space:pre-line"><code>表  調 3-2-1 一維數值模式比較表
 
 
-                  3.2.3  曼寧公式
+                           項目             HEC-RAS        NETSTARS         CCHE1D           SRH1D
 
-                       目前在工程界比較廣泛採用之均勻流公式，係以曼寧公式(Manning’s    formula)
+                                        美國陸軍工兵           臺灣大學土           美國國家計
+                        發展單位            團水文工程中           木系李鴻源           算水科學中          美國墾務局
+                                              心              博士               心
 
-                  為主要。它已普遍運用於水土保持坡地排水和河溪整治工程中，其方程式可寫為
+                                                         隱式普利斯
+                        數值方法             標準步推法           蒙四點差分           普利斯蒙四          標準步推法
+                                                                          點差分法
+                                                              法
+                          亞臨界流                〇               〇               〇              〇
+                          超臨界流                〇               〇               〇              〇
+
+                    水       定量流               〇               〇               〇              〇
+                    理       變量流               〇               〇               〇              〇
+                          迴水演算                〇               〇               〇              〇
+                          主支合流                〇               〇               〇              〇
+
+                         懸浮載/推移               〇               〇               〇              ╳
+                              載
+                          床質級配                〇               〇               〇              〇
+
+                    輸     護甲作用                〇               〇               〇              〇
+                    砂  非均勻沉滓                  〇               〇               〇              〇
+                         凝聚性沉滓                〇               〇               〇              〇
+
+                         岸壁沖刷輸                ╳               ╳               〇              ╳
+                             砂量
+                        使用介面             文字編輯器           文字編輯器             圖形化          文字編輯器
+
+
+                    二、二維河溪動床數值模式：
+
+                         目前常見商用之二維河溪動床數值模式，如 CCHE2D、SMS、FLO2D 等，
+
+                    各模式功能如表  調 3-2-2 所示。茲簡述如下：
+
+                       (一) CCHE2D 模式：
+
+
+                            CCHE2D 為美國國家計算水科學中心研發之二維河溪水理輸砂模式。本
+                       模式可以應用於實驗室或天然河溪之定量流、變量流、亞臨界、混合流、超
+
+
+                       臨界流、穩態及非穩態明渠流等流況，模擬複雜之自由液面流、輸砂、水質、
+                       污染傳輸等機制，同時模式可也考慮了水工結構物(如壩、堰、閘門等)及植生
+
+                       之影響。在輸砂模組方面，包括非穩定(non-steady)與非均勻(non-uniform)輸砂
+
+                       計算，且可依溪床條件設定為動床(erodible)與非動床(non-erodible)區域；此外，
+
+                       河溪泥砂淤積、沖刷以及護甲現象亦可被模擬。由於泥砂顆粒組成的改變，
+
+                       造成動床糙度的持續變化在模式中也被考量。
 
 
 
-                                                    1        1/2
-                                              V =      2/3                         (3.2.4)
-                                                    
-
-                       式中，V  =平均流速(m/sec)；  =通水斷面積( )；  =水力半徑(=/；m)；
-                                                                        2
-                  P  =潤周長(m)；   =底床坡度(無單位)；n  =曼寧粗糙係數(                    1/6 )。
-                                    
-
-
-
-
-
-
-                                                         調-3-24</code></pre>
+                                                         調-3-22</code></pre>
      	</div>
     
      </div>
